@@ -1,5 +1,11 @@
 # Команды Git
 
+Регистрация в Git
+```sh
+git config --global user.name "Имя"
+git config ---global user.email "Эл. почта"
+```
+
 Создание репозитория
 ```sh
 git init
