@@ -22,4 +22,18 @@ git commit -m "Message"
 Просмотр истории изменений с указнием комментариев
 ```sh
 git log
+git log --oneline
+```
+Переключение между комитами в репозитроии
+```sh
+git checkout numbercommit
+```
+Возврат к последней сохраненной версии
+```sh
+git checkout master
+```
+
+Просмотр отличий между двумя сохраненными версиями
+```sh
+git diff numbercommit1 numbercommit2
 ```
