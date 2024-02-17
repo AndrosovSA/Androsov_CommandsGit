@@ -38,8 +38,12 @@ git checkout numbercommit
 ```sh
 git checkout master
 ```
+Просмотр отличий между текущей версией файла (записанной через CtrlS) и сохраненной (закомиченой)
+```sh
+git diff
+```
 
 Просмотр отличий между двумя сохраненными версиями
 ```sh
-git diff number_commit_1 number_commit_2
+git diff number_commit_1 number_commit_
 ```
