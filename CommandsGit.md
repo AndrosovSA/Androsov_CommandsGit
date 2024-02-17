@@ -11,7 +11,7 @@ git config ---global user.email "Эл. почта"
 git init
 ```
 
-Информация об изменениях в репозитории и текущей ветке
+Информация об изменениях в репозитории
 ```sh
 git status
 ```
@@ -41,5 +41,5 @@ git checkout master
 
 Просмотр отличий между двумя сохраненными версиями
 ```sh
-git diff numbercommit1 numbercommit2
+git diff number_commit_1 number_commit_2
 ```
