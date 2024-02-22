@@ -47,3 +47,7 @@ git diff
 ```sh
 git diff <number_commit_1> <number_commit_2>
 ```
+### Переход на другую ветку
+```sh
+git checkout <name_branch>
+```
