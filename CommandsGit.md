@@ -47,3 +47,8 @@ git diff
 ```sh
 git diff <number_commit_1> <number_commit_2>
 ```
+
+### Создание новой ветки
+```sh
+git branch <name_branch>
+```
