@@ -56,3 +56,7 @@ git branch <name_branch>
 ```sh
 git branch
 ```
+### Переход на другую ветку
+```sh
+git checkout <name_branch>
+```
