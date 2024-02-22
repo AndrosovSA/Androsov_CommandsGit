@@ -52,3 +52,7 @@ git diff <number_commit_1> <number_commit_2>
 ```sh
 git branch <name_branch>
 ```
+### Отображение всех веток с указанием текущей
+```sh
+git branch
+```
