@@ -72,3 +72,7 @@ name_branch - имя ветки, которую необходимо перен�
 git log --graph
 git log --graph --oneline
 ```
+### Удалене ветки
+```sh
+git branch -d <name_branch>
+```
