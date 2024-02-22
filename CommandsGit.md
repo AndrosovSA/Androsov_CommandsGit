@@ -47,3 +47,15 @@ git diff
 ```sh
 git diff <number_commit_1> <number_commit_2>
 ```
+### Слияние веток
+```sh
+git marge <name_branch>
+```
+Команду "merge" задаем находясь в главной ветке "master".
+
+name_branch - имя ветки, которую необходимо перенести в главную.
+### Отображение всех веток с указанием коммитов
+```sh
+git log --graph
+git log --graph --oneline
+```
