@@ -60,3 +60,15 @@ git branch
 ```sh
 git checkout <name_branch>
 ```
+### Слияние веток
+```sh
+git marge <name_branch>
+```
+Команду "merge" задаем находясь в главной ветке "master".
+
+name_branch - имя ветки, которую необходимо перенести в главную.
+### Отображение всех веток с указанием коммитов
+```sh
+git log --graph
+git log --graph --oneline
+```
