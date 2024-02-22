@@ -47,3 +47,7 @@ git diff
 ```sh
 git diff <number_commit_1> <number_commit_2>
 ```
+### Удалене ветки
+```sh
+git branch -d <name_branch>
+```
