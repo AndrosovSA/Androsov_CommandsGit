@@ -77,3 +77,7 @@ git remote add origin <URL_GitHub>
 git branch -M main
 git push -u origin main
 ```
+### Пернос внесенных изменений на GitHub
+```sh
+git push
+```
