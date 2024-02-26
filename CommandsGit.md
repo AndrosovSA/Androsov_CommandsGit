@@ -1,21 +1,18 @@
 # Команды Git
-
+## Работа на локальном компьютере
 ### Регистрация в Git
 ```sh
 git config --global user.name "Имя"
 git config ---global user.email "Эл. почта"
 ```
-
 ### Создание репозитория
 ```sh
 git init
 ```
-
 ### Информация об изменениях в репозитории
 ```sh
 git status
 ```
-
 ### Добавление файла для индексации
 ```sh
 git add <folder_name>
@@ -24,7 +21,6 @@ git add <folder_name>
 ```sh
 git commit -m "Message"
 ```
-
 ### Просмотр истории изменений с указнием комментариев
 ```sh
 git log
@@ -46,7 +42,6 @@ git diff
 ```sh
 git diff <number_commit_1> <number_commit_2>
 ```
-
 ### Создание новой ветки
 ```sh
 git branch <name_branch>
@@ -74,4 +69,11 @@ git log --graph --oneline
 ### Удаление ветки
 ```sh
 git branch -d <name_branch>
+```
+## Работа с GitHub
+### Первоначальная связь с удаленным аккаунтом на GitHub
+```sh
+git remote add origin <URL_GitHub>
+git branch -M main
+git push -u origin main
 ```
